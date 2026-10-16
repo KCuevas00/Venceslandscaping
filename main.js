@@ -358,12 +358,12 @@ document.addEventListener('DOMContentLoaded', () => {
     startTimer();
 
     // Pause on hover
-    const heroSection = document.querySelector('.hero-slider-wrap') || document.querySelector('.hero-section');
-    if (heroSection) {
-      heroSection.addEventListener('mouseenter', () => {
+    const heroSliderWrap = document.querySelector('.hero-slider-wrap');
+    if (heroSliderWrap) {
+      heroSliderWrap.addEventListener('mouseenter', () => {
         if (autoSlideTimer) clearInterval(autoSlideTimer);
       });
-      heroSection.addEventListener('mouseleave', startTimer);
+      heroSliderWrap.addEventListener('mouseleave', startTimer);
     }
 
     // Touch Swipe for Mobile

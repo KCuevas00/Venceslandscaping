@@ -63,7 +63,7 @@
   }
   </script>
 
-  <link rel="stylesheet" href="styles.css?v=1.2">
+  <link rel="stylesheet" href="styles.css?v=1.3">
 </head>
 <body>
 
@@ -129,8 +129,31 @@
   </header>
 
   <main>
-    <!-- Hero Section (Spacious Text + Big Fully Visible Photo Slider) -->
+    <!-- Hero Section (Desktop: Spacious Text + Photo Slider; Mobile: Full-Bleed Background Slideshow) -->
     <section class="hero-section" aria-label="Hero Introduction">
+      <!-- Mobile Background Slideshow (4 images auto-scrolling right-to-left) -->
+      <div class="hero-mobile-bg-slideshow" aria-hidden="true">
+        <div class="hero-mobile-bg-track">
+          <div class="hero-mobile-slide">
+            <img src="photos/2670.jpg" alt="Lawn striping" loading="eager">
+          </div>
+          <div class="hero-mobile-slide">
+            <img src="photos/1140.jpg" alt="Mulch installation" loading="eager">
+          </div>
+          <div class="hero-mobile-slide">
+            <img src="photos/2740.jpg" alt="Paver walkway" loading="eager">
+          </div>
+          <div class="hero-mobile-slide">
+            <img src="photos/2297.jpg" alt="Estate lawn care" loading="eager">
+          </div>
+          <!-- Loop clone for seamless right-to-left loop -->
+          <div class="hero-mobile-slide">
+            <img src="photos/2670.jpg" alt="Lawn striping" loading="lazy">
+          </div>
+        </div>
+        <div class="hero-mobile-bg-overlay"></div>
+      </div>
+
       <div class="container hero-grid">
         <div class="hero-content">
           <h1 data-i18n="hero_title">Quality Lawn Care, Mulch &amp; Pavers in Elgin &amp; Surrounding Areas</h1>
@@ -228,9 +251,6 @@
             </div>
             <h3 data-i18n="svc1_title">Lawn Mowing &amp; Striping</h3>
             <p data-i18n="svc1_desc">Weekly precision mowing with signature turf striping, deep sidewalk edging, weed whacking, and total cleanup of walks and driveways.</p>
-            <div class="service-card-footer">
-              <a href="#estimate" class="btn btn-green" data-i18n="btn_request_estimate">Free Estimate</a>
-            </div>
           </article>
 
           <!-- Service 2: Mulch & Bed Edging -->
@@ -243,9 +263,6 @@
             </div>
             <h3 data-i18n="svc2_title">Mulch Installation &amp; Edging</h3>
             <p data-i18n="svc2_desc">Premium double-shredded red, dark brown, or black mulch installed with heavy-duty weed barrier cloth and deep spade trench edging.</p>
-            <div class="service-card-footer">
-              <a href="#estimate" class="btn btn-green" data-i18n="btn_request_estimate">Free Estimate</a>
-            </div>
           </article>
 
           <!-- Service 3: Paver Patios & Walkways -->
@@ -260,9 +277,6 @@
             </div>
             <h3 data-i18n="svc3_title">Paver Patios &amp; Walkways</h3>
             <p data-i18n="svc3_desc">Custom interlocking paver patios, walkways, stepping stone paths with laser-leveled compacted gravel base built to endure Illinois winters.</p>
-            <div class="service-card-footer">
-              <a href="#estimate" class="btn btn-green" data-i18n="btn_request_estimate">Free Estimate</a>
-            </div>
           </article>
 
           <!-- Service 4: Decorative Rock & River Stone -->
@@ -275,9 +289,6 @@
             </div>
             <h3 data-i18n="svc4_title">Decorative Rock &amp; River Stone</h3>
             <p data-i18n="svc4_desc">Smooth round river rock, pea gravel, and stone bed edging. Zero-maintenance weed-free beauty, excellent drainage, and erosion control.</p>
-            <div class="service-card-footer">
-              <a href="#estimate" class="btn btn-green" data-i18n="btn_request_estimate">Free Estimate</a>
-            </div>
           </article>
 
           <!-- Service 5: Shrub & Hedge Trimming -->
@@ -291,9 +302,6 @@
             </div>
             <h3 data-i18n="svc5_title">Hedge &amp; Shrub Trimming</h3>
             <p data-i18n="svc5_desc">Artistic hedge sculpting, shrub pruning, and ornamental bush shaping to keep your landscape lush, clean, and perfectly manicured.</p>
-            <div class="service-card-footer">
-              <a href="#estimate" class="btn btn-green" data-i18n="btn_request_estimate">Free Estimate</a>
-            </div>
           </article>
 
           <!-- Service 6: Cleanups & Yard Clearing -->
@@ -309,10 +317,12 @@
             </div>
             <h3 data-i18n="svc6_title">Seasonal Cleanups &amp; Brush Clearing</h3>
             <p data-i18n="svc6_desc">Spring and fall leaf removal, brush clearing, stump and overgrowth extraction, and complete bed renovation for neglected yards.</p>
-            <div class="service-card-footer">
-              <a href="#estimate" class="btn btn-green" data-i18n="btn_request_estimate">Free Estimate</a>
-            </div>
           </article>
+        </div>
+
+        <!-- Single Estimate Button under all services -->
+        <div class="services-action text-center">
+          <a href="#estimate" class="btn btn-green btn-lg" data-i18n="btn_request_estimate">Request a Free Estimate</a>
         </div>
       </div>
     </section>
