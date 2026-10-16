@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="favGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#16a34a"/>
+      <stop offset="100%" stop-color="#14532d"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#favGreen)"/>
+  <!-- Stylized V with leaf -->
+  <path d="M16 18 L32 46 L48 18" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Sprouting leaf -->
+  <path d="M32 40 C34 26 44 22 48 20 C48 28 42 36 32 40 Z" fill="#4ade80"/>
+</svg>
