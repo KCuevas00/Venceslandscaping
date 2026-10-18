@@ -627,4 +627,11 @@ document.addEventListener('DOMContentLoaded', () => {
       applyLanguage(next);
     });
   }
+
+  // Ensure all videos remain strictly muted
+  document.querySelectorAll('video').forEach(video => {
+    video.muted = true;
+    video.defaultMuted = true;
+    video.volume = 0;
+  });
 });
