@@ -86,7 +86,7 @@ const translations = {
     lbl_service: "Servicio Necesario *",
     lbl_details: "Detalles del trabajo",
     ph_name: "Juan Pérez",
-    ph_phone: "(630) 000-0000",
+    ph_phone: "(224) 000-0000",
     ph_city: "ej. Elgin, IL",
     ph_details: "Cuéntenos sobre su patio, tamaño aproximado, necesidades específicas o cuándo le gustaría empezar...",
     opt_service_placeholder: "Seleccione un Servicio",
@@ -138,7 +138,7 @@ const translations = {
     msg_success_title: "¡Solicitud Recibida!",
     msg_success_desc: "¡Gracias! Nuestro equipo de Vences Landscaping LLC se comunicará pronto para coordinar su estimado gratis a domicilio.",
     msg_need_call: "¿Prefiere llamar ahora? Marque al",
-    msg_error_call: "Hubo un error al enviar. Por favor llame directamente al (630) 796-0198."
+    msg_error_call: "Hubo un error al enviar. Por favor llame directamente al (224) 200-4106."
   },
   en: {
     // Top Bar
@@ -225,7 +225,7 @@ const translations = {
     lbl_service: "Service Needed *",
     lbl_details: "Project Details",
     ph_name: "John Doe",
-    ph_phone: "(630) 000-0000",
+    ph_phone: "(224) 000-0000",
     ph_city: "e.g. Elgin, IL",
     ph_details: "Tell us about your property, approximate lawn size, specific needs, or preferred schedule...",
     opt_service_placeholder: "Select a Service",
@@ -277,7 +277,7 @@ const translations = {
     msg_success_title: "Estimate Request Received!",
     msg_success_desc: "Thank you! Our Vences Landscaping LLC team will review your project details and call you shortly to schedule your free on-site estimate.",
     msg_need_call: "Need immediate service? Call",
-    msg_error_call: "Submission error. Please call (630) 796-0198 directly."
+    msg_error_call: "Submission error. Please call (224) 200-4106 directly."
   }
 };
 
@@ -414,7 +414,7 @@ document.addEventListener('DOMContentLoaded', () => {
               ${t.msg_success_desc}
             </p>
             <p style="font-size: 0.95rem; color: #0f172a; font-weight: 700;">
-              ${t.msg_need_call} <a href="tel:6307960198" style="color: #15803d; text-decoration: underline;">(630) 796-0198</a>
+              ${t.msg_need_call} <a href="tel:2242004106" style="color: #15803d; text-decoration: underline;">(224) 200-4106</a>
             </p>
           </div>
         `;

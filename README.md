@@ -14,7 +14,7 @@ Sitio web oficial bilingüe (Español / English) para **Vences Landscaping LLC**
 
 ## Personalización Rápida
 
-1. **Teléfono de Contacto**: Actualmente configurado con `(630) 796-0198`. Puede reemplazarlo fácilmente en `index.html`, `gallery.html` y `main.js`.
+1. **Teléfono de Contacto**: Actualmente configurado con `(224) 200-4106`. Puede reemplazarlo fácilmente en `index.html`, `gallery.html` y `main.js`.
 2. **Formulario Web3Forms**:
    - Ingrese a [Web3Forms](https://web3forms.com) con su correo electrónico para obtener su clave gratuita (`access_key`).
    - Reemplace `YOUR_ACCESS_KEY_HERE` en el campo oculto `access_key` en `index.html`.
