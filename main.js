@@ -1,10 +1,10 @@
-﻿// Vences Landscaping LLC - Core Client Interaction & Bilingual Engine (Default English)
+// Vences Landscaping LLC - Core Client Interaction & Bilingual Engine (Default English)
 
 const translations = {
   es: {
     // Top Bar
     top_rating: "5.0 en Reseñas de Google",
-    top_location: "Basados en Elgin, IL &bull; Atendiendo Elgin y Zonas Cercanas",
+    top_location: "Basados en Belvidere, IL &bull; Atendiendo Belvidere y Zonas Cercanas",
     
     // Header & Nav
     brand_tag: "Cuidado de Jardines, Mulch y Adoquines",
@@ -18,7 +18,7 @@ const translations = {
     btn_request_estimate: "Estimado Gratis",
     
     // Hero Section
-    hero_title: "Cuidado de Jardines, Mulch y Adoquines en Elgin y Alrededores",
+    hero_title: "Cuidado de Jardines, Mulch y Adoquines en Belvidere y Alrededores",
     hero_lead: "Corte de césped con líneas impecables, instalación de mulch fresco, adoquines, piedra decorativa y limpieza completa. Trabajo garantizado y estimados gratis.",
     hero_feat_1: "Negocio Local de Confianza",
     hero_feat_2: "10+ Años de Experiencia",
@@ -44,7 +44,7 @@ const translations = {
     why_title: "¿Por Qué Elegirnos?",
     why_lead: "Trabajo bien hecho, trato directo y precios justos sin rodeos ni presiones.",
     why_item1_title: "Negocio Local de Confianza",
-    why_item1_desc: "Vivimos y trabajamos aquí en Elgin, atendiendo a nuestras comunidades vecinas en Illinois con orgullo y puntualidad.",
+    why_item1_desc: "Vivimos y trabajamos aquí en Belvidere, atendiendo a nuestras comunidades vecinas en Illinois con orgullo y puntualidad.",
     why_item2_title: "Supervisión Directa del Propietario",
     why_item2_desc: "Supervisamos cada proyecto personalmente para asegurar cortes parejos, bordes definidos y máxima calidad.",
     why_item3_title: "Presupuestos Claros y por Escrito",
@@ -72,7 +72,7 @@ const translations = {
     
     // Reviews
     reviews_title: "Opiniones de Clientes",
-    reviews_lead: "Lo que opinan los clientes que han confiado en nuestros servicios en Elgin y alrededores.",
+    reviews_lead: "Lo que opinan los clientes que han confiado en nuestros servicios en Belvidere y alrededores.",
     rev1_text: "\"Vences Landscaping hace un trabajo increíble con el corte de césped semanal. Las líneas quedan como de campo de golf y siempre dejan las banquetas y la cochera perfectamente sopladas. 100% recomendado.\"",
     rev2_text: "\"Nos renovaron todo el frente de la casa con mulch rojo y tela anti-hierba. Llegaron a tiempo, muy amables y el trabajo quedó hermoso. Precios justos y transparentes.\"",
     rev3_text: "\"Construyeron un camino de adoquines y piedra decorativa en nuestro patio trasero. La calidad del trabajo y la atención a cada detalle fue insuperable. Los recomiendo totalmente.\"",
@@ -87,7 +87,7 @@ const translations = {
     lbl_details: "Detalles del trabajo",
     ph_name: "Juan Pérez",
     ph_phone: "(224) 000-0000",
-    ph_city: "ej. Elgin, IL",
+    ph_city: "ej. Belvidere, IL",
     ph_details: "Cuéntenos sobre su patio, tamaño aproximado, necesidades específicas o cuándo le gustaría empezar...",
     opt_service_placeholder: "Seleccione un Servicio",
     opt_lawn_mowing: "Corte y Mantenimiento de Césped",
@@ -107,17 +107,17 @@ const translations = {
     callbox_hours_week: "Lunes &ndash; Sábado: 7:00 AM &ndash; 6:00 PM",
     callbox_hours_sun: "Domingo: Cerrado (Emergencias disponibles)",
     callbox_areas_title: "Áreas de Cobertura",
-    callbox_areas_desc: "Con base en Elgin, IL &bull; Sirviendo a Elgin, South Elgin, Bartlett, Streamwood, St. Charles, Geneva, Schaumburg, Hoffman Estates, Carpentersville, Algonquin y comunidades vecinas en Illinois.",
+    callbox_areas_desc: "Con base en Belvidere, IL &bull; Sirviendo a Belvidere, Rockford, Cherry Valley, Loves Park, Machesney Park, Poplar Grove, Caledonia, Roscoe, Rockton y comunidades vecinas en Illinois.",
     
     // Footer
-    footer_desc: "Mantenimiento de césped, mulch fresco, adoquines y limpieza de propiedades en Elgin y el norte de Illinois. Trabajo garantizado, precios justos y atención directa.",
+    footer_desc: "Mantenimiento de césped, mulch fresco, adoquines y limpieza de propiedades en Belvidere y el norte de Illinois. Trabajo garantizado, precios justos y atención directa.",
     footer_services_title: "Servicios",
     footer_nav_title: "Navegación",
     footer_contact_title: "Contacto",
     footer_hours: "Lun &ndash; Sáb: 7:00 AM &ndash; 6:00 PM",
-    footer_copyright: "&copy; 2026 Vences Landscaping LLC. Todos los derechos reservados. Negocio Local de Confianza en Elgin, IL.",
-    footer_serving: "Con base en Elgin &bull; Sirviendo a Elgin, Condado de Kane y Comunidades de Illinois",
-    footer_area: "Elgin, IL y Áreas Cercanas",
+    footer_copyright: "&copy; 2026 Vences Landscaping LLC. Todos los derechos reservados. Negocio Local de Confianza en Belvidere, IL.",
+    footer_serving: "Con base en Belvidere &bull; Sirviendo a Belvidere, Condado de Boone, Rockford y Comunidades de Illinois",
+    footer_area: "Belvidere, IL y Áreas Cercanas",
     
     // Mobile Sticky Bar
     sticky_call: "Llamar",
@@ -143,7 +143,7 @@ const translations = {
   en: {
     // Top Bar
     top_rating: "5.0 Google Reviews",
-    top_location: "Based in Elgin, IL &bull; Serving Elgin &amp; Surrounding Illinois Areas",
+    top_location: "Based in Belvidere, IL &bull; Serving Belvidere &amp; Surrounding Illinois Areas",
     
     // Header & Nav
     brand_tag: "Lawn Care, Mulch &amp; Hardscaping",
@@ -157,7 +157,7 @@ const translations = {
     btn_request_estimate: "Free Estimate",
     
     // Hero Section
-    hero_title: "Quality Lawn Care, Mulch &amp; Pavers in Elgin &amp; Surrounding Areas",
+    hero_title: "Quality Lawn Care, Mulch &amp; Pavers in Belvidere &amp; Surrounding Areas",
     hero_lead: "Crisp lawn striping, fresh mulch installation, paver walkways, decorative river rock, and complete cleanups. Guaranteed craftsmanship and free estimates.",
     hero_feat_1: "Locally Owned &amp; Operated",
     hero_feat_2: "10+ Years Experience",
@@ -183,7 +183,7 @@ const translations = {
     why_title: "Why Choose Us",
     why_lead: "We believe in honest work, direct communication, and fair pricing without high-pressure sales.",
     why_item1_title: "Locally Owned &amp; Operated",
-    why_item1_desc: "We live and work right here in Elgin, proudly serving our neighboring Illinois communities with reliable scheduling.",
+    why_item1_desc: "We live and work right here in Belvidere, proudly serving our neighboring Illinois communities with reliable scheduling.",
     why_item2_title: "Direct Owner Oversight",
     why_item2_desc: "We oversee and work each job site personally to ensure laser-sharp lines, clean edges, and top tier quality control.",
     why_item3_title: "Fair, Upfront Written Estimates",
@@ -211,7 +211,7 @@ const translations = {
     
     // Reviews
     reviews_title: "Customer Reviews",
-    reviews_lead: "Real feedback from property owners who trust Vences Landscaping LLC in Elgin and surrounding areas.",
+    reviews_lead: "Real feedback from property owners who trust Vences Landscaping LLC in Belvidere and surrounding areas.",
     rev1_text: "\"Vences Landscaping does phenomenal work on our weekly lawn mowing. The stripes look like a golf fairway and they always blow off every sidewalk and driveway clean. Highly recommended!\"",
     rev2_text: "\"They redid our entire front landscaping with fresh red mulch and weed barrier cloth. Arrived right on time, very courteous, and the front yard looks amazing. Fair, honest pricing.\"",
     rev3_text: "\"They built a beautiful paver walkway and decorative stone bed in our backyard. The craftmanship and attention to detail was exceptional. Will definitely hire them again.\"",
@@ -226,7 +226,7 @@ const translations = {
     lbl_details: "Project Details",
     ph_name: "John Doe",
     ph_phone: "(224) 000-0000",
-    ph_city: "e.g. Elgin, IL",
+    ph_city: "e.g. Belvidere, IL",
     ph_details: "Tell us about your property, approximate lawn size, specific needs, or preferred schedule...",
     opt_service_placeholder: "Select a Service",
     opt_lawn_mowing: "Lawn Mowing &amp; Striping",
@@ -246,7 +246,7 @@ const translations = {
     callbox_hours_week: "Monday &ndash; Saturday: 7:00 AM &ndash; 6:00 PM",
     callbox_hours_sun: "Sunday: Closed (Emergency calls available)",
     callbox_areas_title: "Service Areas",
-    callbox_areas_desc: "Based in Elgin, IL &bull; Serving Elgin, South Elgin, Bartlett, Streamwood, St. Charles, Geneva, Schaumburg, Hoffman Estates, Carpentersville, Algonquin, and surrounding Illinois communities.",
+    callbox_areas_desc: "Based in Belvidere, IL &bull; Serving Belvidere, Rockford, Cherry Valley, Loves Park, Machesney Park, Poplar Grove, Caledonia, Roscoe, Rockton, and surrounding Illinois communities.",
     
     // Footer
     footer_desc: "Professional residential and commercial lawn care, fresh mulch, pavers, and property maintenance in Northern Illinois. Dependable service, fair pricing, and top quality results.",
@@ -254,9 +254,9 @@ const translations = {
     footer_nav_title: "Navigation",
     footer_contact_title: "Contact",
     footer_hours: "Mon &ndash; Sat: 7:00 AM &ndash; 6:00 PM",
-    footer_copyright: "&copy; 2026 Vences Landscaping LLC. All rights reserved. Locally Owned &amp; Operated in Elgin, IL.",
-    footer_serving: "Based in Elgin &bull; Serving Elgin, Kane County &amp; Surrounding Illinois Communities",
-    footer_area: "Elgin, IL &amp; Surrounding Areas",
+    footer_copyright: "&copy; 2026 Vences Landscaping LLC. All rights reserved. Locally Owned &amp; Operated in Belvidere, IL.",
+    footer_serving: "Based in Belvidere &bull; Serving Belvidere, Boone County, Rockford &amp; Surrounding Illinois Communities",
+    footer_area: "Belvidere, IL &amp; Surrounding Areas",
     
     // Mobile Sticky Bar
     sticky_call: "Call Us",
