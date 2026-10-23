@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Homepage -->
+  <url>
+    <loc>https://venceslandscaping.com/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://venceslandscaping.com/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://venceslandscaping.com/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://venceslandscaping.com/" />
+    <image:image>
+      <image:loc>https://venceslandscaping.com/photos/og-preview.jpg</image:loc>
+      <image:title>Vences Landscaping LLC Elgin IL Lawn Care &amp; Pavers</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://venceslandscaping.com/photos/2670.jpg</image:loc>
+      <image:title>Lawn Mowing &amp; Precision Turf Striping Elgin IL</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://venceslandscaping.com/photos/1140.jpg</image:loc>
+      <image:title>Fresh Red Mulch Installation &amp; Spade Edging</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://venceslandscaping.com/photos/2740.jpg</image:loc>
+      <image:title>Interlocking Paver Walkway &amp; Stone Installation</image:title>
+    </image:image>
+  </url>
+
+  <!-- Project Gallery -->
+  <url>
+    <loc>https://venceslandscaping.com/gallery.html</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://venceslandscaping.com/gallery.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://venceslandscaping.com/gallery.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://venceslandscaping.com/gallery.html" />
+    <image:image>
+      <image:loc>https://venceslandscaping.com/photos/2670.jpg</image:loc>
+      <image:title>Lawn striping gallery Vences Landscaping</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://venceslandscaping.com/photos/2297.jpg</image:loc>
+      <image:title>Manicured turf and estate lawn care</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://venceslandscaping.com/photos/2740.jpg</image:loc>
+      <image:title>Completed paver stone walkway</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://venceslandscaping.com/photos/1140.jpg</image:loc>
+      <image:title>Vibrant mulch install and weed barrier</image:title>
+    </image:image>
+  </url>
+
+</urlset>

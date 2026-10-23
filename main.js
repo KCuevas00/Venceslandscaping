@@ -1,4 +1,4 @@
-// Vences Landscaping LLC - Core Client Interaction & Bilingual Engine (Default English)
+﻿// Vences Landscaping LLC - Core Client Interaction & Bilingual Engine (Default English)
 
 const translations = {
   es: {
@@ -424,7 +424,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const accessKey = accessKeyInput ? accessKeyInput.value.trim() : '';
 
       // If key is default/demo, simulate success gracefully
-      if (!accessKey || accessKey === 'YOUR_ACCESS_KEY_HERE') {
+      if (!accessKey || accessKey === 'YOUR_ACCESS_KEY_HERE') { console.warn('Web3Forms Notice: access_key is set to placeholder YOUR_ACCESS_KEY_HERE. Register at https://web3forms.com to receive live leads.');
         setTimeout(showSuccess, 600);
         return;
       }
